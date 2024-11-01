@@ -25,8 +25,7 @@ breast_cancer_classification/
 
 The dataset, available on [Kaggle](https://www.kaggle.com/code/fareselmenshawii/breast-cancer-various-models), contains features such as **radius**, **texture**, **perimeter**, and **area** to predict whether a tumor is malignant or benign. Place the downloaded `breast_cancer_data.csv` file in the `data/` folder.
 
-### **Feature Descriptions:**
-## **Features**
+## **Feature Descriptions**
 
 The dataset includes various features representing different characteristics of cell nuclei, which are used to predict whether a tumor is benign or malignant. Here’s a summary of the features:
 
@@ -69,5 +68,4 @@ cd breast_cancer_classification
 
 ### **Install Dependencies**
 
-```bash
 pip install -r requirements.txt
