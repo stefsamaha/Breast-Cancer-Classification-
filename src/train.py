@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 # Load and preprocess data
-file_path = r'C:\Users\stef\Documents\Uni\EECE\EECE 490\assignment 3\Breast Cancer Classification\data\breast_cancer_data.csv'
+file_path = r'' #Insert .csv doc path here 
 X, y = load_data(file_path)
 X_train, X_test, y_train, y_test = preprocess_data(X, y)
 
@@ -47,7 +47,7 @@ criterion = nn.BCELoss()
 optimizer = optim.Adam(nn_model.parameters(), lr=0.001)
 
 # Training loop
-for epoch in range(100):  # Adjust epochs as needed
+for epoch in range(100):  # Adjust epochs as needed, I chose 100 
     nn_model.train()
     optimizer.zero_grad()
     outputs = nn_model(torch.tensor(X_train, dtype=torch.float32))
