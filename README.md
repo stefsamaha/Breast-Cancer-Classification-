@@ -1,6 +1,6 @@
 # Breast Cancer Classification using Feed-Forward Neural Network
 
-**This project applies a feed-forward neural network, along with Logistic Regression and SVM models, to classify breast cancer as benign or malignant based on a dataset from Kaggle. It serves as an introduction to GitHub, Python, and machine learning model implementation.**
+**This project applies a feed-forward neural network, along with Logistic Regression and SVM models, to classify breast cancer as benign or malignant based on a dataset from Kaggle. It serves as a great introduction to GitHub, Python, and machine learning model implementation.**
 
 **Project Structure**
 
@@ -40,7 +40,7 @@ The dataset includes various features representing different characteristics of 
   - `smoothness_worst`, `compactness_worst`, `concavity_worst`, `concave points_worst`
   - `symmetry_worst`, `fractal_dimension_worst`
 
-Each feature provides valuable information to help classify tumors based on nuclear features. For a complete list, refer to the dataset on [Kaggle](https://www.kaggle.com/code/fareselmenshawii/breast-cancer-various-models).
+Each feature provides valuable information to help classify tumors based on nuclear features. For a complete list, please refer to the dataset on [Kaggle](https://www.kaggle.com/code/fareselmenshawii/breast-cancer-various-models).
 
 ### **Target Variable**
 
@@ -51,11 +51,13 @@ Diagnosis: Binary classification (0 = Benign, 1 = Malignant)
 
 ## **Performance Comparison**
 
-After training the Logistic Regression, SVM, and Feed-Forward Neural Network models, the notebook compares their performance using accuracy, precision, recall, and F1 score. A bar chart displays each model’s performance for easier comparison.
+After training the Logistic Regression, SVM, and Feed-Forward Neural Network models, the notebook compares their performance using accuracy, precision, recall, and F1 score. 
 
 The bar chart below shows the performance metrics (Accuracy, Precision, Recall, and F1 Score) for Logistic Regression, SVM, and Neural Network models:
 
 ![Model Performance Comparison](images/model_performance_comparison.png)
+
+Can you notice that the Neural Network is victorious among the models in all categories? 
 
 
 ## **Installation**
